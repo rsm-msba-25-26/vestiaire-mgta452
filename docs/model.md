@@ -3,8 +3,8 @@
 [Home](index.md) · [Dashboards](dashboards.md) · [Model](model.md)
 
 # Predictive Modeling
+
 ## Code Files
-- [EDA Script (eda.py)](../code/eda.py)
 - [Predictive Modeling Script (predictive_modeling.py)](../code/predictive_modeling.py)
   
 ## Predictions vs Actual (Random Forest)
