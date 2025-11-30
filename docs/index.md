@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="style.css">
+
+
 # Vestaire Secondhand Fashion Project
 
 Welcome to our MGTA 452 Project Site! Use the links below to navigate through our dashboards and predictive model!
