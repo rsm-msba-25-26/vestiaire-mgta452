@@ -3,7 +3,10 @@
 [Home](index.md) · [Dashboards](dashboards.md) · [Model](model.md)
 
 # Predictive Modeling
-
+## Code Files
+- [EDA Script (eda.py)](../code/eda.py)
+- [Predictive Modeling Script (predictive_modeling.py)](../code/predictive_modeling.py)
+  
 ## Predictions vs Actual (Random Forest)
 <img src="img/rf_predicted_vs_actual.png" width="600">
 
