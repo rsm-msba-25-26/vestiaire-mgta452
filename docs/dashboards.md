@@ -1,3 +1,5 @@
+[Home](index.md) · [Dashboards](dashboards.md) · [Model](model.md)
+
 # Interactive Dashboards
 
 Below are the interactive dashboards embedded from Tableau Public.  
