@@ -5,7 +5,7 @@
 
 Welcome to our MGTA 452 Project Site! Use the links below to navigate through our dashboards and predictive model!
 
-- [Dashboards](dashboards.md)
+- [Dashboards](dashboards.html)
 - [Predictive Model](model.md)
 - [EDA](eda.md) 
 
