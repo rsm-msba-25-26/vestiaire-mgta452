@@ -68,6 +68,6 @@ We evaluate models using:
 The Random Forest achieved the strongest performance and was used to extract **feature importances**.
 
 Full modeling results:  
-https://rsm-msba-25-26.github.io/vestaire-mgta452/model.md
+https://rsm-msba-25-26.github.io/vestaire-mgta452/model.html
 
 ---
