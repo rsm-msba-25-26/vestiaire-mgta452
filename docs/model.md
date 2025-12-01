@@ -5,7 +5,7 @@
 # Predictive Modeling
 
 ## Code Files
-- [Predictive Modeling Script (predictive_modeling.py)](../code/predictive_modeling.py)
+- [Predictive Modeling Script (predictive_modeling.py)](code/predictive_modeling.ipynb)
   
 ## Predictions vs Actual (Random Forest)
 <img src="img/rf_predicted_vs_actual.png" width="600">
