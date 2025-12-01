@@ -1,4 +1,4 @@
-# Vestaire Second Hand Fashion Market Analysis
+# Vestiaire Second Hand Fashion Market Analysis
 MGTA 452 Final Project
 Team: Sophia Salas, Anissa Chan, Jie Geng
 
@@ -16,7 +16,7 @@ This project analyzes **900,000+ secondhand luxury fashion listings** from Vesti
 By combining Exploratory Data Analysis (EDA), visualization, and predictive modeling, our goal is to uncover key drivers of price in the secondhand luxury market.
 
 **Live GitHub Pages site:**  
-https://rsm-msba-25-26.github.io/vestaire-mgta452/
+https://rsm-msba-25-26.github.io/vestiare-mgta452/
 
 ---
 
@@ -41,7 +41,7 @@ We built three interactive dashboards using Tableau:
    - Total like count effect on average price
 
 View all dashboards here:  
-https://rsm-msba-25-26.github.io/vestaire-mgta452/dashboards.html
+https://rsm-msba-25-26.github.io/vestiare-mgta452/dashboards.html
 
 ---
 
@@ -68,6 +68,6 @@ We evaluate models using:
 The Random Forest achieved the strongest performance and was used to extract **feature importances**.
 
 Full modeling results:  
-https://rsm-msba-25-26.github.io/vestaire-mgta452/model.html
+https://rsm-msba-25-26.github.io/vestiare-mgta452/model.html
 
 ---
