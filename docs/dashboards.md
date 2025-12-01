@@ -13,25 +13,20 @@ You can hover, filter, and interact with them directly on this page.
 
 ### Average Price by Country
 
-<div align="center">
+<div class="tableau-container">
   <iframe
     src="https://public.tableau.com/views/GlobalMarketOverview/MarketOverview?:showVizHome=no&:embed=true&publish=yes"
-    width="1100"
-    height="800"
-    frameborder="0"
-    scrolling="no">
+    height="800">
   </iframe>
 </div>
 
+
 ### Brand Overview
 
-<div align="center">
+<div class="tableau-container">
   <iframe
     src="https://public.tableau.com/views/BrandOverview/BrandOverview?:showVizHome=no&:embed=true&publish=yes"
-    width="1100"
-    height="800"
-    frameborder="0"
-    scrolling="no">
+    height="800">
   </iframe>
 </div>
 
@@ -40,39 +35,28 @@ You can hover, filter, and interact with them directly on this page.
 ## 2. Condition and Category Dashboard
 
 ### Clothing Condition Insights
-
-<div align="center">
+<div class="tableau-container">
   <iframe
-    src="https://public.tableau.com/views/ClothingConditionInsights/ConditionInsights?:showVizHome=no&:embed=true&publish=yes"
-    width="1100"
-    height="820"
-    frameborder="0"
-    scrolling="no">
+src="https://public.tableau.com/views/ClothingConditionInsights/ConditionInsights?:showVizHome=no&:embed=true&publish=yes"
+    height="800">
   </iframe>
 </div>
 
 ### Category, Condition, and Price
 
-<div align="center">
+<div class="tableau-container">
   <iframe
-    src="https://public.tableau.com/views/CategoryandConditionInsights/CategoryandPrice?:showVizHome=no&:embed=true&publish=yes"
-    width="1100"
-    height="820"
-    frameborder="0"
-    scrolling="no">
+src="https://public.tableau.com/views/CategoryandConditionInsights/CategoryandPrice?:showVizHome=no&:embed=true&publish=yes"
+    height="800">
   </iframe>
 </div>
 
 ---
 
 ## 3. Global Seller Patterns
-
-<div align="center">
+<div class="tableau-container">
   <iframe
-    src="https://public.tableau.com/views/SellerPatternsAcrossCountries/SellerPatternsAcrossCountries?:showVizHome=no&:embed=true&publish=yes"
-    width="1100"
-    height="820"
-    frameborder="0"
-    scrolling="no">
+src="https://public.tableau.com/views/SellerPatternsAcrossCountries/SellerPatternsAcrossCountries?:showVizHome=no&:embed=true&publish=yes"
+    height="800">
   </iframe>
 </div>
