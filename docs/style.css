@@ -19,3 +19,16 @@ iframe {
   margin: 20px auto;
   display: block;
 }
+
+/* format dashboards*/
+.tableau-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.tableau-container iframe {
+  width: 1300px;    
+  max-width: none;
+  border: none;
+}
+
