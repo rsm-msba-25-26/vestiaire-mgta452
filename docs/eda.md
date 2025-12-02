@@ -1,4 +1,4 @@
-[Home](index.md) · [Dashboards](dashboards.html) · [Model](model.md) · [EDA](eda.md) 
+[Home](index.md) · [Dashboards](dashboards.html) · [Model](model.md) · [EDA](eda.html) 
 
 # Exploratory Data Analysis
 
@@ -15,6 +15,6 @@ Key to our cleaning and exploration are the following:
 - top brands by like count
 
 Full EDA Script:
-[EDA Script](eda_notebook.html)
+[EDA Script](eda.html)
 
 
