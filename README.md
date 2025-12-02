@@ -1,73 +1,75 @@
-# Vestiaire Second Hand Fashion Market Analysis
-MGTA 452 Final Project
-Team: Sophia Salas, Anissa Chan, Jie Geng
+# Vestiaire Secondhand Fashion Market Analysis  
+MGTA 452 – Final Project  
+**Team:** Sophia Salas, Anissa Chan, Jie Geng  
 
 ---
 
 ## Project Overview
 
-This project analyzes **900,000+ secondhand luxury fashion listings** from Vestiaire Collective to understand **what drives resale price**. We explore:
+This project analyzes **900,000+ secondhand luxury fashion listings** from Vestiaire Collective to understand the key factors that **drive resale prices** in the growing luxury resale marketplace. Our analysis explores:
 
 - Brand- and category-level pricing patterns  
-- The impact of item condition on resale value  
-- Predictive modeling of resale price 
-- Interactive dashboards for visual analytics
+- The impact of product condition on resale value  
+- Country-level pricing insights  
+- Popularity metrics such as total likes  
+- Predictive modeling to estimate resale price  
+- Interactive dashboards for visual analytics  
 
-By combining Exploratory Data Analysis (EDA), visualization, and predictive modeling, our goal is to uncover key drivers of price in the secondhand luxury market.
+Through Exploratory Data Analysis (EDA), Tableau dashboards, and machine learning modeling, we aim to uncover how product, seller, and market characteristics influence secondhand fashion pricing.
 
-**Live GitHub Pages site:**  
+🔗 **Live Project Website (GitHub Pages):**  
 https://rsm-msba-25-26.github.io/vestiaire-mgta452/
 
 ---
 
 ## Dashboards Overview
 
-We built three interactive dashboards using Tableau:
+We developed several interactive dashboards using Tableau Public to visualize patterns in the Vestiaire dataset.
 
-1. **Brand & Market Overview**  
-   - Top brands  
-   - Global price map  
-   - Brand-level listing volume  
-   - Price distribution by region
+### **1. Brand & Market Overview**
+- Brand-level resale performance  
+- Global average price patterns  
+- Market-wide pricing distribution  
 
-2. **Condition & Category Dashboard**  
-   - Condition insights  
-   - Price heatmaps for category × condition  
-   - Category-level comparisons
+### **2. Condition, Likes & Category Dashboard**
+- How price varies by condition  
+- Relationship between likes and resale value  
+- Category-level pricing behavior  
 
-3. **Seller & Popularity Patterns**  
-   - Average price by country
-   - Total likes by country
-   - Total like count effect on average price
+### **3. Country-Level Insights**
+- Average price by country  
+- Average likes by country  
+- Geographic patterns in resale behavior  
 
-View all dashboards here:  
-https://rsm-msba-25-26.github.io/vestiare-mgta452/dashboards.html
+**View Interactive Dashboards:**  
+https://rsm-msba-25-26.github.io/vestiaire-mgta452/dashboards.html
 
 ---
 
 ## Predictive Modeling
 
-We model **log(price_usd)** using:
+We build machine learning models to predict **log(price_usd)** based on:
 
-- Product features  
-- Seller reputation metrics  
-- Popularity indicators (like count, sold status)  
-- Fees and platform economics  
-- Category and brand dummy variables  
+- Product features (brand, category, material, color, season)  
+- Condition and popularity indicators (like counts, sold status)  
+- Seller reputation metrics (followers, products sold, pass rate)  
+- Platform fee and pricing structure variables  
 
-### Models implemented:
-- **Linear Regression (baseline)**
-- **Random Forest Regression (improved model)**
+### **Models Implemented**
+- **Linear Regression (Baseline)**  
+- **Random Forest Regression (Improved Model)**
 
-We evaluate models using:
+### **Evaluation Metrics**
+- RMSE (log scale and converted price scale)  
+- R² (model fit)  
+- Cross-validation performance  
 
-- RMSE (log scale and price scale)
-- R²
-- Cross-validation
+The **Random Forest model** achieved the strongest predictive performance and provided interpretable **feature importance** rankings, highlighting key contributors to resale price.
 
-The Random Forest achieved the strongest performance and was used to extract **feature importances**.
-
-Full modeling results:  
-https://rsm-msba-25-26.github.io/vestiare-mgta452/model.html
+**Full Modeling Results:**  
+https://rsm-msba-25-26.github.io/vestiaire-mgta452/model.html
 
 ---
+
+## 📂 Repository Structure
+
