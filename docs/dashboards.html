@@ -5,7 +5,9 @@
     <title>Interactive Dashboards</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
+    <!-- Navigation -->
     <p>
       <a href="index.html">Home</a> ·
       <a href="dashboards.html">Dashboards</a> ·
@@ -17,12 +19,16 @@
     <p>Below are the interactive dashboards embedded from Tableau Public.</p>
     <hr />
 
-    <h2>1. Brand and Market Overview</h2>
+    <!-- =================================================================== -->
+    <!-- ===================== 1. BRAND & MARKET OVERVIEW =================== -->
+    <!-- =================================================================== -->
 
-    <h3>Average Price by Country</h3>
+    <h2>1. Brand & Market Overview</h2>
+
+    <h3>Global Market Overview</h3>
     <div class="tableau-container">
       <iframe
-        src="https://public.tableau.com/views/GlobalMarketOverview/MarketOverview?:showVizHome=no&:embed=true&publish=yes"
+        src="https://public.tableau.com/views/GlobalMarketOverview/MarketOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
         height="800">
       </iframe>
     </div>
@@ -30,39 +36,58 @@
     <h3>Brand Overview</h3>
     <div class="tableau-container">
       <iframe
-        src="https://public.tableau.com/views/BrandOverview/BrandOverview?:showVizHome=no&:embed=true&publish=yes"
+        src="https://public.tableau.com/views/BrandOverview/BrandOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
         height="800">
       </iframe>
     </div>
 
     <hr />
 
-    <h2>2. Condition and Category Dashboard</h2>
+    <!-- =================================================================== -->
+    <!-- ======= 2. CONDITION, LIKES & CATEGORY INSIGHTS ==================== -->
+    <!-- =================================================================== -->
 
-    <h3>Clothing Condition Insights</h3>
+    <h2>2. Condition, Likes & Category Insights</h2>
+
+    <h3>Like Count Insights</h3>
     <div class="tableau-container">
       <iframe
-        src="https://public.tableau.com/views/ClothingConditionInsights/ConditionInsights?:showVizHome=no&:embed=true&publish=yes"
+        src="https://public.tableau.com/views/LikeCountInsights/LikeCountInsight?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
         height="800">
       </iframe>
     </div>
 
-    <h3>Category, Condition, and Price</h3>
+    <h3>Condition Insights</h3>
     <div class="tableau-container">
       <iframe
-        src="https://public.tableau.com/views/CategoryandConditionInsights/CategoryandPrice?:showVizHome=no&:embed=true&publish=yes"
+        src="https://public.tableau.com/views/ConditionInsights/ConditionInsights?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
         height="800">
       </iframe>
     </div>
 
     <hr />
 
-    <h2>3. Global Seller Patterns</h2>
+    <!-- =================================================================== -->
+    <!-- ===================== 3. COUNTRY-LEVEL INSIGHTS ==================== -->
+    <!-- =================================================================== -->
+
+    <h2>3. Country-Level Insights</h2>
+
+    <h3>Country by Average Likes</h3>
     <div class="tableau-container">
       <iframe
-        src="https://public.tableau.com/views/SellerPatternsAcrossCountries/SellerPatternsAcrossCountries?:showVizHome=no&:embed=true&publish=yes"
+        src="https://public.tableau.com/views/CountryandAverageLikes/CountrybyAverageLikes?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
         height="800">
       </iframe>
     </div>
+
+    <h3>Country by Average Price</h3>
+    <div class="tableau-container">
+      <iframe
+        src="https://public.tableau.com/views/CountryandAveragePrice/CountrybyAvgPrice?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+        height="800">
+      </iframe>
+    </div>
+
   </body>
 </html>
